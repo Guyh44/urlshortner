@@ -1,5 +1,4 @@
-using System;
-using System.Text;
+
 
 namespace urlshortner.Models
 {
@@ -15,14 +14,14 @@ namespace urlshortner.Models
         {
             const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             Random random = new Random();
-            StringBuilder newString = new StringBuilder();
+            string newString = "";
 
             for (int i = 0; i < length; i++)
             {
-                newString.Append(chars[random.Next(chars.Length)]);
+                newString += chars[random.Next(chars.Length)];
             }
-
-            return newString.ToString();
+            
+            return newString;
         }
     }
 }

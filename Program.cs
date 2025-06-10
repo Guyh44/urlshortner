@@ -1,9 +1,14 @@
+
+using urlshortner.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddSingleton<AddDB>();
 var app = builder.Build();
+
 
 app.UseSwagger();
 app.UseSwaggerUI();

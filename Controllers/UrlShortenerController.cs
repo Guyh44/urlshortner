@@ -5,7 +5,11 @@ using urlshortner.Services;
 [Route("/")]
 public class UrlShortenerController : ControllerBase
 {
-    [HttpPost("shorten")]
+
+    //Creates a shortened URL from a provided long URL
+    //"request" Request the URL to be shortened
+    //the post JSON response with the shortened URL or BadRequest if URL is invalid
+    [HttpPost("api/shorten")]
     public IActionResult Shorten([FromBody] UrlRequest request)
     {
         if (!Uri.IsWellFormedUriString(request.Url, UriKind.Absolute))
@@ -15,6 +19,9 @@ public class UrlShortenerController : ControllerBase
         return Ok(new { shortUrl = fullShortUrl });
     }
 
+    //Redirects from a short code to the original URL
+    //"code" the short code that represents a long url
+    //redirect to the original url
     [HttpGet("{code}")]
     public IActionResult RedirectToOriginalUrl(string code)
     {
@@ -23,7 +30,7 @@ public class UrlShortenerController : ControllerBase
         {
             return NotFound("Short URL not found");
         }
-
+        //return Ok(new { shortUrl = originalUrl });
         return Redirect(originalUrl);
     }
 
