@@ -14,7 +14,7 @@ namespace urlshortner.Services
         /*
         the func gets string "longUrl" that contain the original url
         this func call to GenerateRandomString to create a short url
-        then the func saves it in a dict, short url is key and long is value
+        then the func saves it in a db
         */
         public static string ShortenUrl(string longUrl)
         {
@@ -33,6 +33,22 @@ namespace urlshortner.Services
 
             UrlDB.InsertValues(longUrl, shortenUrl);
             return baseUrl + shortenUrl;
+        }
+
+        /*
+        the func gets string "longUrl" that contain the original url and a custum code that will be the short code
+        this func checks if the url is already in the db
+        then the func saves it in a db with the custom short code
+        */
+        public static string CustomCode(string longUrl, string customCode)
+        {
+            string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
+            if (!string.IsNullOrEmpty(existShortcut))
+            {
+                return baseUrl + existShortcut;
+            }
+            UrlDB.InsertValues(longUrl, customCode);
+            return baseUrl + customCode;
         }
         /*
         this func Retrieves the original URL based on the short code.
