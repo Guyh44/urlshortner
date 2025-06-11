@@ -25,7 +25,7 @@ namespace urlshortner.Services
             using (var connection = new SQLiteConnection($"Data Source={DBFile};Version=3;")) //establish connection
             {
                 connection.Open();
-
+                // those are the filds of the table
                 string createTableQuery = @"
                     CREATE TABLE IF NOT EXISTS URLS (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -39,6 +39,7 @@ namespace urlshortner.Services
                 }
             }
         }
+        
         public void InsertValues(string longUrl, string shortUrl)
         {
             using (var connection = new SQLiteConnection($"Data Source={DBFile};Version=3;")) //connecting to db

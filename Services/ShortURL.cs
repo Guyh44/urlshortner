@@ -8,7 +8,7 @@ namespace urlshortner.Services
     public class ShortURL
     {
         private static readonly AddDB UrlDB = new AddDB();
-        private static string baseUrl = "http://harpaz.url/"; //base url
+        private static string baseUrl = "http://localhost:5235/"; //base url
         private static int shortCodeLength = 6; // short url length
 
         /*
