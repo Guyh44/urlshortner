@@ -1,31 +1,38 @@
 import React from "react";
 import "./App.css";
-import hanldeSubmit from "./buttonHandler.js";
-
+import handleSubmit from "./buttonHandler.js";
 
 function App() {
   return (
     <div className="app-container">
-      <div className="box">
-        <h1>
-          hello welcome to my url shortner porject
-        </h1>
-        <h2 className="enter-url">
-          please enter an URL:
-        </h2>
-        <input
-          type="text"
-          placeholder="original URL..."
-          className="url-input"
-        />
-        <button
-        type="submit"
-        className="submit-btn"
-        onClick={hanldeSubmit}
-        >
-          <span>convert url</span>
-        </button>
-      </div>
+      <main>
+        <h1>Ever dreamed of shortening a URL?</h1>
+        <div className="box">
+          <h2 className="sub-headers">Please enter a URL:</h2>
+          <input
+            type="text"
+            placeholder="https://example.com"
+            className="input"
+          />
+          <h2 className="sub-headers">Please enter a custom short code:</h2>
+          <input
+            type="text"
+            placeholder="custom short code"
+            className="input-short-code"
+          />
+          <button
+            type="submit"
+            className="submit-btn"
+            onClick={handleSubmit}
+          >
+            Convert URL
+          </button>
+
+        </div>
+      </main>
+
+      <hr className="footer-divider" />
+      <footer>© All rights reserved to Guy Harpaz</footer>
     </div>
   );
 }
