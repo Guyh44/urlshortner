@@ -5,11 +5,10 @@ using urlshortner.Models;
 namespace urlshortner.Services
 {
     //This class handles URL shortening logic
-    class ShortURL
+    public class ShortURL
     {
-        // Dictionary to store mappings: short code and original long URL
-        private static Dictionary<string, string> allurls = new Dictionary<string, string>();
-        private static string baseUrl = "http://harpaz.url/"; //base url
+        private static readonly AddDB UrlDB = new AddDB();
+        private static string baseUrl = "http://localhost:5235/"; //base url
         private static int shortCodeLength = 6; // short url length
 
         /*
@@ -21,11 +20,18 @@ namespace urlshortner.Services
         {
             string shortenUrl = "";
 
-            do{
+            string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
+            if(!string.IsNullOrEmpty(existShortcut)) 
+            {
+                return baseUrl + existShortcut;
+            }
+            
+            do
+            {
                 shortenUrl = RandomString.GenerateRandomString(shortCodeLength);
-            } while (allurls.ContainsKey(shortenUrl));
+            } while (!string.IsNullOrEmpty(UrlDB.GetLongUrlByShortCode(shortenUrl)));
 
-            allurls.Add(shortenUrl, longUrl);
+            UrlDB.InsertValues(longUrl, shortenUrl);
             return baseUrl + shortenUrl;
         }
         /*
@@ -35,7 +41,8 @@ namespace urlshortner.Services
         */
         public static string? GetOriginalUrl(string shorturl)
         {
-            return allurls.TryGetValue(shorturl, out var url) ? url : null;
+            var originalUrl = UrlDB.GetLongUrlByShortCode(shorturl);
+            return string.IsNullOrEmpty(originalUrl) ? null : originalUrl;
         }   
 
     }
