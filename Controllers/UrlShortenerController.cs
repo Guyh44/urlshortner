@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Mvc;
 using urlshortner.Services;
 
@@ -29,8 +30,7 @@ public class UrlShortenerController : ControllerBase
         if (originalUrl == null)
         {
             return NotFound("Short URL not found");
-        }
-        //return Ok(new { shortUrl = originalUrl });
+        } 
         return Redirect(originalUrl);
     }
 
