@@ -30,8 +30,16 @@ public class UrlShortenerController : ControllerBase
         if (!Uri.IsWellFormedUriString(request.Url, UriKind.Absolute))
             return BadRequest("Invalid URL.");
 
-        string fullShortUrl = ShortURL.CustomCode(request.Url, request.CustomCode); 
-        return Ok(new { shortUrl = fullShortUrl });
+        try
+        {
+            string fullShortUrl = ShortURL.CustomCode(request.Url, request.CustomCode);
+            return Ok(new { shortUrl = fullShortUrl });
+        }
+        catch (InvalidOperationException ex)
+        {
+            return Conflict(ex.Message); // custom short code in use
+        }
+
     }
 
     //Redirects from a short code to the original URL

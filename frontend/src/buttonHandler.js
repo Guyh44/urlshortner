@@ -57,7 +57,12 @@ async function handleCustomShortCode(url, customCode)
     });
 
     if (!response.ok) {
-        throw new Error(`Server error: ${response.status}`);
+        if (response.status === 409) {
+        // 409 Conflict when custom code is taken
+        alert("This custom short code is already in use. Please choose another.");
+        } else {
+            throw new Error(`Server error: ${response.status}`);
+        }
     }
 
     const result = await response.json(); // get the response

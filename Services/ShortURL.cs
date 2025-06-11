@@ -42,6 +42,13 @@ namespace urlshortner.Services
         */
         public static string CustomCode(string longUrl, string customCode)
         {
+            // check if custom short code is already assosiated with url
+            string existingLongUrl = UrlDB.GetLongUrlByShortCode(customCode); // try to get url by custom code
+            if (!string.IsNullOrEmpty(existingLongUrl))
+            {
+                throw new InvalidOperationException("Custom short code already in use.");
+            }
+
             string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
             if (!string.IsNullOrEmpty(existShortcut))
             {
