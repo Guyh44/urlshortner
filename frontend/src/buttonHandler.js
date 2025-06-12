@@ -1,72 +1,37 @@
-//async for the await (waits for response) command 
-export default async function handleSubmit() {
+// src/buttonHandler.js
+import {
+  shortenWithRandomCode,
+  shortenWithCustomCode,
+} from "./urlShortnerOutput";
 
-    const urlInput = document.querySelector(".input");
-    const codeInput = document.querySelector(".input-short-code");
+/**
+ * Decides which API call to use based on customCode.
+ * Parses response or throws custom error messages.
+ */
+export default async function handleSubmit(url, customCode) {
+  if (!url.trim()) {
+    throw new Error("Please enter a URL");
+  }
 
-    const url = urlInput ? urlInput.value.trim() : "";
-    const customCode = codeInput ? codeInput.value.trim() : "";
-    //check for urls
-    if (!url) {
-        alert("Please enter a URL");
-        return;
+  let response;
+  try {
+    if (customCode.trim() === "") {
+      response = await shortenWithRandomCode(url.trim());
+    } else {
+      response = await shortenWithCustomCode(url.trim(), customCode.trim());
     }
-
-    try {
-        if (customCode === "") // no custom url was inputed
-            await handleRandomShotCode(url)
-        else
-            await handleCustomShortCode(url, customCode)
-
-    } catch (error) {
-        console.error("Error sending request:", error);
-        alert("error");
-    }
-    
-}
-
-async function handleRandomShotCode(url)
-{
-    const response = await fetch("http://localhost:5235/api/shorten", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json" //tels im sending json
-        },
-        body: JSON.stringify({ url })
-    });
 
     if (!response.ok) {
-        throw new Error(`Server error: ${response.status}`);
+      if (response.status === 409) {
+        throw new Error("Custom code already taken");
+      }
+      throw new Error(`Server error: ${response.status}`);
     }
 
-    const result = await response.json(); // get the response
-    console.log("Full response JSON:", result);
-    console.log("Shortened URL:", result.shortUrl);
-    alert(result.shortUrl)
-}
-
-
-async function handleCustomShortCode(url, customCode)
-{
-    const response = await fetch("http://localhost:5235/api/custom/shorten", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ url, customCode }) 
-    });
-
-    if (!response.ok) {
-        if (response.status === 409) {
-        // 409 Conflict when custom code is taken
-        alert("This custom short code is already in use. Please choose another.");
-        } else {
-            throw new Error(`Server error: ${response.status}`);
-        }
-    }
-
-    const result = await response.json(); // get the response
-    console.log("Full response JSON:", result);
-    console.log("Shortened URL:", result.shortUrl);
-    alert(result.shortUrl)
+    const result = await response.json();
+    return result;
+  } catch (error) {
+    console.error("Request failed:", error);
+    throw error;
+  }
 }
