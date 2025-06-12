@@ -25,7 +25,7 @@ public class UrlShortenerController : ControllerBase
     //"request" Request the URL to be shortened
     //the post JSON response with the shortened URL or BadRequest if URL is invalid
     [HttpPost("api/custom/shorten")]
-    public IActionResult Shorten([FromBody] CustomUrlRequest request)
+    public IActionResult CustomShorten([FromBody] CustomUrlRequest request)
     {
         if (!Uri.IsWellFormedUriString(request.Url, UriKind.Absolute))
             return BadRequest("Invalid URL.");
