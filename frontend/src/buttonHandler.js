@@ -1,8 +1,7 @@
-// src/buttonHandler.js
 import {
   shortenWithRandomCode,
   shortenWithCustomCode,
-} from "./urlShortnerOutput";
+} from "./urlShortnerApi";
 
 /**
  * Decides which API call to use based on customCode.
@@ -16,15 +15,18 @@ export default async function handleSubmit(url, customCode) {
   let response;
   try {
     if (customCode.trim() === "") {
-      response = await shortenWithRandomCode(url.trim());
+        response = await shortenWithRandomCode(url.trim());
     } else {
-      response = await shortenWithCustomCode(url.trim(), customCode.trim());
+        response = await shortenWithCustomCode(url.trim(), customCode.trim());
     }
 
     if (!response.ok) {
-      if (response.status === 409) {
-        throw new Error("Custom code already taken");
-      }
+        if (response.status === 409) {
+            throw new Error("Custom code already taken");
+        }
+        if (response.status === 400) {
+            throw new Error("Invalid URL format");
+        }
       throw new Error(`Server error: ${response.status}`);
     }
 

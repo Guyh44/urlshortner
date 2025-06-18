@@ -2,71 +2,78 @@ using System;
 using System.Collections.Generic;
 using urlshortner.Models;
 
-namespace urlshortner.Services
+
+namespace urlshortner.Services;
+
+//This class handles URL shortening logic
+public class ShortURL
 {
-    //This class handles URL shortening logic
-    public class ShortURL
+
+    private static readonly AddDB UrlDB = new AddDB();
+    private static string baseUrl = "http://localhost:5235/"; //base url
+    private static int shortCodeLength = 6; // short url length
+
+    /*
+    the func gets string "longUrl" that contain the original url
+    this func call to GenerateRandomString to create a short url
+    then the func saves it in a db
+    */
+    public static string ShortenUrl(string longUrl, int ttlMinutes)
     {
-        private static readonly AddDB UrlDB = new AddDB();
-        private static string baseUrl = "http://localhost:5235/"; //base url
-        private static int shortCodeLength = 6; // short url length
+        string shortenUrl = "";
 
-        /*
-        the func gets string "longUrl" that contain the original url
-        this func call to GenerateRandomString to create a short url
-        then the func saves it in a db
-        */
-        public static string ShortenUrl(string longUrl)
+        // Check if URL already exists and is still valid
+        string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
+        if (!string.IsNullOrEmpty(existShortcut) && UrlDB.IsUrlValid(existShortcut))
         {
-            string shortenUrl = "";
-
-            string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
-            if(!string.IsNullOrEmpty(existShortcut)) 
-            {
-                return baseUrl + existShortcut;
-            }
-            
-            do
-            {
-                shortenUrl = RandomString.GenerateRandomString(shortCodeLength);
-            } while (!string.IsNullOrEmpty(UrlDB.GetLongUrlByShortCode(shortenUrl)));
-
-            UrlDB.InsertValues(longUrl, shortenUrl);
-            return baseUrl + shortenUrl;
+            return baseUrl + existShortcut;
         }
 
-        /*
-        the func gets string "longUrl" that contain the original url and a custum code that will be the short code
-        this func checks if the url is already in the db
-        then the func saves it in a db with the custom short code
-        */
-        public static string CustomCode(string longUrl, string customCode)
+        // Generate unique short code
+        do
         {
-            // check if custom short code is already assosiated with url
-            string existingLongUrl = UrlDB.GetLongUrlByShortCode(customCode); // try to get url by custom code
-            if (!string.IsNullOrEmpty(existingLongUrl))
-            {
-                throw new InvalidOperationException("Custom short code already in use.");
-            }
+            //shortenUrl = RandomStringGenerator.GenerateRandomString(shortCodeLength);
+        } while (UrlDB.IsUrlValid(shortenUrl));
 
-            string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
-            if (!string.IsNullOrEmpty(existShortcut))
-            {
-                return baseUrl + existShortcut;
-            }
-            UrlDB.InsertValues(longUrl, customCode);
-            return baseUrl + customCode;
-        }
-        /*
-        this func Retrieves the original URL based on the short code.
-        the func gets "shorturl" (just the short code without the base)
-        the func return the original url or null if not found
-        */
-        public static string? GetOriginalUrl(string shorturl)
-        {
-            var originalUrl = UrlDB.GetLongUrlByShortCode(shorturl);
-            return string.IsNullOrEmpty(originalUrl) ? null : originalUrl;
-        }   
-
+        UrlDB.InsertValues(longUrl, shortenUrl, ttlMinutes);
+        return baseUrl + shortenUrl;
     }
+
+    /*
+    the func gets string "longUrl" that contain the original url and a custum code that will be the short code
+    this func checks if the url is already in the db
+    then the func saves it in a db with the custom short code
+    */
+    public static string CustomCode(string longUrl, string customCode, int ttlMinutes)
+    {
+        // Check if custom short code is valid (not expired)
+        if (UrlDB.IsUrlValid(customCode))
+        {
+            throw new InvalidOperationException("Custom short code already in use.");
+        }
+
+        // Check if URL already exists with a different short code
+        string existShortcut = UrlDB.GetShortCodeByLongUrl(longUrl);
+        if (!string.IsNullOrEmpty(existShortcut))
+        {
+            return baseUrl + existShortcut;
+        }
+
+        UrlDB.InsertValues(longUrl, customCode, ttlMinutes);
+        return baseUrl + customCode;
+    }
+    /*
+    this func Retrieves the original URL based on the short code.
+    the func gets "shorturl" (just the short code without the base)
+    the func return the original url or null if not found
+    */
+    public static string? GetOriginalUrl(string shorturl)
+    {
+        // Check if URL is valid first - handles cleanup of expired URL
+        if (!UrlDB.IsUrlValid(shorturl))
+            return null;
+        var originalUrl = UrlDB.GetLongUrlByShortCode(shorturl);
+        return string.IsNullOrEmpty(originalUrl) || originalUrl == "expired url" ? null : originalUrl;
+    }
+
 }

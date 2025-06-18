@@ -16,7 +16,7 @@ public class UrlShortenerController : ControllerBase
         if (!Uri.IsWellFormedUriString(request.Url, UriKind.Absolute))
             return BadRequest("Invalid URL.");
 
-        string fullShortUrl = ShortURL.ShortenUrl(request.Url); 
+        string fullShortUrl = ShortURL.ShortenUrl(request.Url, request.TTL); 
         return Ok(new { shortUrl = fullShortUrl });
     }
 
@@ -32,7 +32,7 @@ public class UrlShortenerController : ControllerBase
 
         try
         {
-            string fullShortUrl = ShortURL.CustomCode(request.Url, request.CustomCode);
+            string fullShortUrl = ShortURL.CustomCode(request.Url, request.CustomCode, request.TTL);
             return Ok(new { shortUrl = fullShortUrl });
         }
         catch (InvalidOperationException ex)
@@ -61,11 +61,15 @@ public class UrlShortenerController : ControllerBase
 public class UrlRequest
 {
     public string Url { get; set; } = string.Empty;
+
+    public int TTL { get; set; } = 0;
 }
 
 public class CustomUrlRequest
 {
     public string Url { get; set; } = string.Empty;
+
+    public int TTL { get; set; } = 0;
     public string CustomCode { get; set; } = string.Empty;
 }
 

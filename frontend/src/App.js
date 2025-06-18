@@ -5,6 +5,7 @@ import handleSubmit from "./buttonHandler";
 function App() {
   const [url, setUrl] = useState("");
   const [customCode, setCustomCode] = useState("");
+  const [ttl, setTtl] = useState(0);
   const [shortenedUrl, setShortenedUrl] = useState("");
   const [error, setError] = useState("");
 
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className="app-container">
       <main>
-        <h1>Ever dreamed of shortening a URL?</h1>
+        <h1>Ever dreamed about shortening a URL?</h1>
         <div className="box">
           <h2 className="sub-headers">Please enter a URL:</h2>
           <input
@@ -41,7 +42,19 @@ function App() {
             value={customCode}
             onChange={(e) => setCustomCode(e.target.value)}
           />
-          <button type="submit" className="submit-btn" onClick={onFormSubmit}>
+          <h2 className="sub-headers">TTL in minutes (0 = permanent):</h2>
+          <input
+            type="number"
+            placeholder="0"
+            className="input"
+            value={ttl}
+            onChange={(e) => setTtl(parseInt(e.target.value) || 0)}
+            min="0"
+          />
+          <button 
+            type="submit" 
+            className="submit-btn" 
+            onClick={onFormSubmit}>
             Convert URL
           </button>
 
