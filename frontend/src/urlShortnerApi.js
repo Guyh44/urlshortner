@@ -1,7 +1,7 @@
 
 
 export async function shortenWithRandomCode(url, ttl = 0) {
-  const response = await fetch("http://localhost:5235/api/shorten", {
+  const response = await fetch("http://localhost:5031/api/shorten", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
