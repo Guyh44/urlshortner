@@ -1,0 +1,35 @@
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.deps.json
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.runtimeconfig.json
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.dll
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.pdb
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Domain.dll
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Domain.pdb
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.csproj.AssemblyReference.cache
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.AssemblyInfoInputs.cache
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.AssemblyInfo.cs
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShort.41F6DB00.Up2Date
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.dll
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\refint\UrlShortener.Infrastructure.dll
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.pdb
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.genruntimeconfig.cache
+D:\Users\גיא\Desktop\programing\vs code\UrlShortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\ref\UrlShortener.Infrastructure.dll
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.deps.json
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.runtimeconfig.json
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.dll
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Infrastructure.pdb
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Domain.dll
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\bin\Debug\net9.0\UrlShortener.Domain.pdb
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.AssemblyInfo.cs
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.sourcelink.json
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShort.41F6DB00.Up2Date
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.dll
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\refint\UrlShortener.Infrastructure.dll
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.pdb
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\UrlShortener.Infrastructure.genruntimeconfig.cache
+C:\Users\Hamburg\source\repos\urlshortner\backend\src\UrlShortener.Infrastructure\obj\Debug\net9.0\ref\UrlShortener.Infrastructure.dll
