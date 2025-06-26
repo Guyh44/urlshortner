@@ -7,7 +7,8 @@ public class ShortenedUrl
     public string ShortCode { get; private set; }
     public DateTime CreatedAt { get; private set; }
     public DateTime? ExpiresAt { get; private set; }
-
+    public int ClickCount { get; private set; } 
+    
     public ShortenedUrl(string originalUrl, string shortCode, int ttlMinutes = 0)
     {
         if (string.IsNullOrWhiteSpace(originalUrl))
@@ -20,13 +21,19 @@ public class ShortenedUrl
         ShortCode = shortCode;
         CreatedAt = DateTime.UtcNow;
         ExpiresAt = ttlMinutes > 0 ? CreatedAt.AddMinutes(ttlMinutes) : null;
+        ClickCount = 0;
+    }
+    
+    public void RegisterClick()
+    {
+        ClickCount++;
     }
 
     // For EF Core
     private ShortenedUrl()
     {
-        OriginalUrl = string.Empty; //must have value (cannot bee null will be overwritten)
-        ShortCode = string.Empty; //must have value (cannot bee null will be overwritten)
+        OriginalUrl = string.Empty; //must have value (cannot be null, will be overwritten)
+        ShortCode = string.Empty; //must have value (cannot be null, will be overwritten)
     }
 
     public bool IsExpired => ExpiresAt.HasValue && ExpiresAt.Value <= DateTime.UtcNow;

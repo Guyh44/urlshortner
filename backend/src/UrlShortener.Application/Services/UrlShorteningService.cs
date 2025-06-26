@@ -107,10 +107,18 @@ public class UrlShorteningService : IUrlShorteningService
             }
             return null;
         }
-
+        shortenedUrl.RegisterClick();
+        await _urlRepository.UpdateAsync(shortenedUrl);
         return shortenedUrl.OriginalUrl;
     }
+    
+    public async Task<int?> GetClickCountAsync(string shortCode)
+    {
+        var shortened = await _urlRepository.GetByShortCodeAsync(shortCode);
+        return shortened?.ClickCount;
+    }
 
+    
     private static bool IsValidUrl(string url) =>
         Uri.IsWellFormedUriString(url, UriKind.Absolute);
 }

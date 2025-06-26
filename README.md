@@ -32,7 +32,7 @@ Then, the users can use those short links and be redirect to the original URLs.
 - **VS Code** - Code editor - recommended to run the project in
 - **Node.js & npm** - Frontend package management
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have the following installed on your system:
 

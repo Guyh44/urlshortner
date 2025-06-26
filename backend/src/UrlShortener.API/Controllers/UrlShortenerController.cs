@@ -72,4 +72,22 @@ public class UrlShortenerController : ControllerBase
             return StatusCode(500, "An error occurred while processing your request");
         }
     }
+    
+    [HttpGet("/api/stats/{code}")]
+    public async Task<IActionResult> GetClickCount(string code)
+    {
+        try
+        {
+            var count = await _urlShorteningService.GetClickCountAsync(code);
+            if (count == null)
+            {
+                return NotFound("Short URL not found or expired");
+            }
+            return Ok(count);
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, "An error occurred while processing your request");
+        }
+    }
 }

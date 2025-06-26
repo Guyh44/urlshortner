@@ -5,31 +5,23 @@ namespace UrlShortener.Domain.Interfaces
 {
     public interface IUrlRepository
     {
-        /// <summary>
-        /// Finds a shortened URL record by its shortcode.
-        /// Returns null if not found.
-        /// </summary>
+        // Finds a shortened URL record by its shortcode.
+        // Returns null if not found.
         Task<ShortenedUrl?> GetByShortCodeAsync(string shortCode);
-
-        /// <summary>
-        /// Finds a shortened URL record by its original URL.
-        /// Returns null if not found.
-        /// </summary>
+        
+        // Finds a shortened URL record by its original URL.
+        // Returns null if not found.
         Task<ShortenedUrl?> GetByOriginalUrlAsync(string originalUrl);
-
-        /// <summary>
-        /// Persists a new shortened URL record.
-        /// </summary>
+        
+        // Persists a new shortened URL record.
         Task<ShortenedUrl> CreateAsync(ShortenedUrl shortenedUrl);
-
-        /// <summary>
-        /// Deletes a shortened URL record by its shortcode.
-        /// </summary>
+        
+        // Deletes a shortened URL record by its shortcode.
         Task DeleteAsync(string shortCode);
-
-        /// <summary>
-        /// Returns true if a record with the given shortcode exists.
-        /// </summary>
+        
+        // Returns true if a record with the given shortcode exists.
         Task<bool> ExistsAsync(string shortCode);
+        // save the updated clickCount
+        Task UpdateAsync(ShortenedUrl shortenedUrl);
     }
 }

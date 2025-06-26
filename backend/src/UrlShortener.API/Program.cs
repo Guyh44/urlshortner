@@ -1,8 +1,8 @@
-using UrlShortener.Application.Interfaces;
 using UrlShortener.Application.Services;
 using UrlShortener.Domain.Interfaces;
 using UrlShortener.Infrastructure.Data;
 using UrlShortener.Infrastructure.Services;
+using UrlShortener.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,8 +21,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend", policy =>
     {
         policy.WithOrigins("http://localhost:3000")
-              .AllowAnyMethod()
-              .AllowAnyHeader();
+            .AllowAnyMethod()
+            .AllowAnyHeader();
     });
 });
 
@@ -31,8 +31,10 @@ var app = builder.Build();
 // Configure pipeline
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
+    
 }
 
 app.UseCors("AllowFrontend");
