@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj": {}
+    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj",
         "projectName": "UrlShortener.API",
-        "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj",
-        "packagesPath": "C:\\Users\\Hamburg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.API\\obj\\",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.API\\UrlShortener.API.csproj",
+        "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamburg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\גיא\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +31,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
-                "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj"
               },
-              "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +50,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -85,25 +84,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
         "projectName": "UrlShortener.Application",
-        "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
-        "packagesPath": "C:\\Users\\Hamburg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Application\\obj\\",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
+        "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamburg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\גיא\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,8 +115,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
               }
             }
           }
@@ -133,7 +131,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -154,25 +152,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
         "projectName": "UrlShortener.Domain",
-        "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hamburg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\obj\\",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
+        "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamburg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\גיא\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,7 +195,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -219,25 +216,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj",
         "projectName": "UrlShortener.Infrastructure",
-        "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Hamburg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\obj\\",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hamburg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\גיא\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,8 +247,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hamburg\\source\\repos\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
               }
             }
           }
@@ -267,7 +263,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -294,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

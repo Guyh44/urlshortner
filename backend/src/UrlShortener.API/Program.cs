@@ -1,26 +1,30 @@
+// this file sets up the web application host, registers application services, 
+// enables Swagger for API documentation, and defines the CORS policy.
+// this file is also responsible for injecting the repository, services and random code generator classes
+
 using UrlShortener.Application.Services;
 using UrlShortener.Domain.Interfaces;
 using UrlShortener.Infrastructure.Data;
 using UrlShortener.Infrastructure.Services;
 using UrlShortener.Application.Interfaces;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args); // creates the application web builder
 
-// Add services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(); // register the swaggers API
 
-// Register dependencies
+// register dependencies injections
 builder.Services.AddSingleton<IUrlRepository, SqliteUrlRepository>();
 builder.Services.AddSingleton<ICodeGenerator, RandomCodeGenerator>();
 builder.Services.AddScoped<IUrlShorteningService, UrlShorteningService>();
 
+// configurs CORS, which allows the front to talk to the back
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000")
+        policy.WithOrigins("http://localhost:3000") // where the front sits
             .AllowAnyMethod()
             .AllowAnyHeader();
     });
@@ -28,7 +32,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure pipeline
+// configure the HTTP pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
