@@ -25,11 +25,10 @@ Then, the users can use those short links and be redirect to the original URLs.
 - **.NET 9** - Modern web framework
 - **ASP.NET Core Web API** - RESTful API framework
 - **SQLite** - Lightweight database to store the URLs
-- **Swagger/OpenAPI** - API documentation 
-- **Docker** - Run the app Localy
+- **Swagger/OpenAPI** - API documentation
 
 ### Additional Tools
-- **VS Code** - Code editor - recommended to run the project in
+- **rider** - Code editor - recommended to run the project in
 - **Node.js & npm** - Frontend package management
 
 ## Prerequisites
@@ -127,12 +126,6 @@ npm install axios bootstrap
 now you are all set
 
 ## Running the Project
-
-### Method 1: Run with docker
-
-
-
-### Method 2: Run Frontend and Backend Separately
 
 #### Start the Backend (.NET API)
 

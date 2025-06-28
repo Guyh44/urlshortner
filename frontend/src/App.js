@@ -14,7 +14,7 @@ function App() {
     setShortenedUrl(""); // clear previous result
 
     try {
-      const result = await handleSubmit(url, customCode);
+      const result = await handleSubmit(url, customCode, ttl);
       setShortenedUrl(result.shortUrl);
     } catch (err) {
       setError(err.message);
@@ -22,64 +22,64 @@ function App() {
   };
 
   return (
-    <div className="app-container">
-      <main>
-        <h1>Ever dreamed about shortening a URL?</h1>
-        <div className="box">
-          <h2 className="sub-headers">Please enter a URL:</h2>
-          <input
-            type="text"
-            placeholder="https://example.com"
-            className="input"
-            value={url}
-            onChange={(e) => setUrl(e.target.value)}
-          />
-          <h2 className="sub-headers">Please enter a custom short code:</h2>
-          <input
-            type="text"
-            placeholder="custom short code"
-            className="input-short-code"
-            value={customCode}
-            onChange={(e) => setCustomCode(e.target.value)}
-          />
-          <h2 className="sub-headers">TTL in minutes (0 = permanent):</h2>
-          <input
-            type="number"
-            placeholder="0"
-            className="input"
-            value={ttl}
-            onChange={(e) => setTtl(parseInt(e.target.value) || 0)}
-            min="0"
-          />
-          <button 
-            type="submit" 
-            className="submit-btn" 
-            onClick={onFormSubmit}>
-            Convert URL
-          </button>
+      <div className="app-container">
+        <main>
+          <h1>Ever dreamed about shortening a URL?</h1>
+          <div className="box">
+            <h2 className="sub-headers">Please enter a URL:</h2>
+            <input
+                type="text"
+                placeholder="https://example.com"
+                className="input"
+                value={url}
+                onChange={(e) => setUrl(e.target.value)}
+            />
+            <h2 className="sub-headers">Please enter a custom short code:</h2>
+            <input
+                type="text"
+                placeholder="custom short code"
+                className="input-short-code"
+                value={customCode}
+                onChange={(e) => setCustomCode(e.target.value)}
+            />
+            <h2 className="sub-headers">TTL in minutes (0 = permanent):</h2>
+            <input
+                type="number"
+                placeholder="0"
+                className="input"
+                value={ttl}
+                onChange={(e) => setTtl(parseInt(e.target.value) || 0)}
+                min="0"
+            />
+            <button
+                type="submit"
+                className="submit-btn"
+                onClick={onFormSubmit}>
+              Convert URL
+            </button>
 
-          {error && (
-            <p className="error-message" style={{ color: "red", marginTop: "1rem" }}>
-              {error}
-            </p>
-          )}
+            {error && (
+                <p className="error-message" style={{ color: "red", marginTop: "1rem" }}>
+                  {error}
+                </p>
+            )}
 
-          <h2 className="sub-headers" style={{ marginTop: "1rem" }}>
-            Shortened URL:
-          </h2>
-          <input
-            type="text"
-            className="input"
-            value={shortenedUrl}
-            readOnly
-            placeholder="Result will appear here"
-          />
-        </div>
-      </main>
+            <h2 className="sub-headers" style={{ marginTop: "1rem" }}>
+              Shortened URL:
+            </h2>
+            <input
+                type="text"
+                className="input"
+                value={shortenedUrl}
+                readOnly
+                placeholder="Result will appear here"
+            />
+          </div>
+        </main>
 
-      <hr className="footer-divider" />
-      <footer>© All rights reserved to Guy Harpaz</footer>
-    </div>
+        <hr className="footer-divider" />
+        <footer>© All rights reserved to Guy Harpaz</footer>
+      </div>
   );
 }
 
