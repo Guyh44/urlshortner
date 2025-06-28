@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LKcpe6bd98Q=",
+  "dgSpecHash": "H1RCNo3jCBk=",
   "success": true,
-  "projectFilePath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj",
+  "projectFilePath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Infrastructure\\UrlShortener.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\גיא\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\גיא\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

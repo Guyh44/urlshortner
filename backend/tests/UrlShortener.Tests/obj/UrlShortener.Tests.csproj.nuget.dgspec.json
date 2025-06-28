@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj": {}
+    "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
         "projectName": "UrlShortener.Application",
-        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj",
         "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\obj\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
-                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
         "projectName": "UrlShortener.Domain",
-        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
         "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\obj\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -136,14 +136,14 @@
         }
       }
     },
-    "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj": {
+    "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj",
+        "projectUniqueName": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj",
         "projectName": "UrlShortener.Tests",
-        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj",
+        "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj",
         "packagesPath": "C:\\Users\\גיא\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\tests\\UrlShortener.Tests\\obj\\",
+        "outputPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\tests\\UrlShortener.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -163,11 +163,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
-                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Application\\UrlShortener.Application.csproj"
               },
-              "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
-                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
+              "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
+                "projectPath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
               }
             }
           }

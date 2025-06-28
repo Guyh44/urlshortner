@@ -12,7 +12,7 @@ Then, the users can use those short links and be redirect to the original URLs.
 - **Swagger Documentation**: Interactive API documentation
 - **SQLite Database**: Lightweight, file-based database for storing URL mappings
 - **Input Validation**: URL format validation on both frontend and backend
-
+- **analytics**: allows us to see how many time a shortened URL was visited
 ## Technologies Used
 
 ### Frontend
@@ -132,7 +132,7 @@ now you are all set
 From the project backend directory:
 
 ```bash
-cd backend
+cd backend/src/UrlShortener.API
 dotnet run
 ```
 
@@ -202,4 +202,14 @@ Creates a custom shortened URL from a long URL.
 Redirects to the original URL using the short code.
 
 **Parameters**:
-- `code` (string): The 6-character short code
+- `code` (string): The short code
+
+
+#### 4. Get analytics of a URL
+**GET** `/api/stats/{code}`
+
+returns the analytics (amount of time visited) of a shortened URL
+
+**Parameters**:
+- `code` (string): The short code
+

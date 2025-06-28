@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VZfnklcPAdA=",
+  "dgSpecHash": "7iU9bHehXyg=",
   "success": true,
-  "projectFilePath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj",
+  "projectFilePath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\tests\\UrlShortener.Tests\\UrlShortener.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\גיא\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\גיא\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

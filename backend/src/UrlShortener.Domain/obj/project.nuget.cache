@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpZZdeBNaWI=",
+  "dgSpecHash": "j3rQgCAcB4Y=",
   "success": true,
-  "projectFilePath": "D:\\Users\\גיא\\Desktop\\programing\\vs code\\gitUpload\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
+  "projectFilePath": "D:\\Users\\גיא\\Desktop\\programing\\urlshortner\\backend\\src\\UrlShortener.Domain\\UrlShortener.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
