@@ -1,35 +1,39 @@
-//async for the await (waits for response) command 
-export default async function handleSubmit() {
+import {
+    shortenWithRandomCode,
+    shortenWithCustomCode,
+} from "./urlShortnerApi";
 
-    const url = document.querySelector(".url-input").value;
-    console.log("URL entered:", url);
-
-    //check for urls
-    if (!url) {
-        alert("Please enter a URL");
-        return;
+/**
+ * Decides which API call to use based on customCode.
+ * Parses response or throws custom error messages.
+ */
+export default async function handleSubmit(url, customCode, ttl) {
+    if (!url.trim()) {
+        throw new Error("Please enter a URL");
     }
 
+    let response;
     try {
-        const response = await fetch("http://localhost:5235/api/shorten", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json" //tels im sending json
-            },
-            body: JSON.stringify({ url: url }) // the json itself will be "url": "https://in&outUrl.com"
-        });
+        if (customCode.trim() === "") {
+            response = await shortenWithRandomCode(url.trim(), ttl);
+        } else {
+            response = await shortenWithCustomCode(url.trim(), customCode.trim(), ttl);
+        }
 
         if (!response.ok) {
+            if (response.status === 409) {
+                throw new Error("Custom code already taken");
+            }
+            if (response.status === 400) {
+                throw new Error("Invalid URL format");
+            }
             throw new Error(`Server error: ${response.status}`);
         }
 
-        const result = await response.json(); // get the response
-        console.log("Full response JSON:", result);
-        console.log("Shortened URL:", result.shortUrl);
-
+        const result = await response.json();
+        return result;
     } catch (error) {
-        console.error("Error sending request:", error);
-        alert("error");
+        console.error("Request failed:", error);
+        throw error;
     }
-    
 }

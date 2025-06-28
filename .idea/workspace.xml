@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b99e62e-6a68-44ff-99f3-1626463d2af5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.API.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/bin/Debug/net9.0/UrlShortener.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/UrlShortener.API.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/ref/UrlShortener.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/ref/UrlShortener.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/refint/UrlShortener.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/refint/UrlShortener.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/bin/Debug/net9.0/UrlShortener.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/UrlShortener.Application.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/ref/UrlShortener.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/ref/UrlShortener.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/refint/UrlShortener.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Application/obj/Debug/net9.0/refint/UrlShortener.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/bin/Debug/net9.0/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/bin/Debug/net9.0/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/bin/Debug/net9.0/UrlShortener.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/bin/Debug/net9.0/UrlShortener.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/UrlShortener.Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/ref/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/ref/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/refint/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Domain/obj/Debug/net9.0/refint/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/bin/Debug/net9.0/UrlShortener.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/UrlShortener.Infrastructure.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/ref/UrlShortener.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/ref/UrlShortener.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/refint/UrlShortener.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/obj/Debug/net9.0/refint/UrlShortener.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/bin/Debug/net9.0/UrlShortener.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/UrlShortener.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/ref/UrlShortener.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/ref/UrlShortener.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/refint/UrlShortener.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/UrlShortener.Tests/obj/Debug/net9.0/refint/UrlShortener.Tests.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.API/Controllers/UrlShortenerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.API/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Application/DTOs/UrlShortenRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Application/Services/UrlShorteningService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Domain/Entities/ShortenedUrl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Domain/Interfaces/ICodeGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Domain/Interfaces/IUrlRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/Data/SqliteUrlRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/UrlShortener.Infrastructure/Services/RandomCodeGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/tests/UrlShortener.Tests/Unit/ShortenedUrlTests.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2z2T4QHk10F6EDrnTaRliCa6Esr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b99e62e-6a68-44ff-99f3-1626463d2af5" name="Changes" comment="" />
+      <created>1750927978196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750927978196</updated>
+      <workItem from="1750927981902" duration="1627000" />
+      <workItem from="1750929776063" duration="355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
